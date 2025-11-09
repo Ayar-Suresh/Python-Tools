@@ -20,13 +20,13 @@ Fetch **YouTube playlist details** (title, channel name, thumbnails, and video c
   ```bash
   pip install requests
 
-###2️⃣ Add Your API Key
+### 2️⃣ Add Your API Key
 
 Open the script and replace this line:
 
 API_KEY = "YOUR_YOUTUBE_V3_API_KEY"
 
-###3️⃣ Add Playlist IDs
+### 3️⃣ Add Playlist IDs
 
 Replace the example IDs with your own:
 
@@ -35,18 +35,18 @@ playlist_ids = [
   "PLyyyyyyyyyyyyyyyyyyyyy",
 ]
 
-###4️⃣ Run the Script
+### 4️⃣ Run the Script
 
 Run the script from your terminal:
 
 python youtube_playlist_fetcher.py
 
-###📦 Output
+### 📦 Output
 
 The script creates a file named youtube_playlists.json in the same folder.
 
 Example:
-
+('''
 {
   "items": [
     {
@@ -62,3 +62,4 @@ Example:
     }
   ]
 }
+''')
