@@ -46,7 +46,7 @@ python youtube_playlist_fetcher.py
 The script creates a file named youtube_playlists.json in the same folder.
 
 Example:
-('''
+```json
 {
   "items": [
     {
@@ -62,4 +62,4 @@ Example:
     }
   ]
 }
-''')
+```
