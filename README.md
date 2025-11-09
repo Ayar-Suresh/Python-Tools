@@ -54,7 +54,7 @@ Example:
       "snippet": {
         "title": "Sample Playlist",
         "channelTitle": "Example Channel",
-        "thumbnails": { ... }
+        "thumbnails": { .... }
       },
       "contentDetails": {
         "itemCount": 25
